@@ -58,7 +58,6 @@ public class GetAllCasingsTest {
         // when
         Collection<String> actual = StringUtils.getAllCasings(stringInput);
 
-
         // then
         Assert.assertTrue(actual.containsAll(expected));
         Assert.assertTrue(expected.containsAll(actual));
